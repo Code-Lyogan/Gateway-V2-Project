@@ -1,0 +1,88 @@
+html, body {
+  height: 100%
+  width: 100%
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/* Nav Bar Design */
+nav {
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 35px;
+  font-family: Didot, serif
+  font-weight: bold;
+  color: #FDB927
+}
+
+a {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #FDB927;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #552583
+}
+
+ul {
+  margin: 0px;
+}
+
+ul li{
+  float: left;
+  padding: 5px;
+  list-style: none;
+}
+/* Nav Bar Design End */
+
+/* Mission Statement Design */
+h3 {
+  color: #FDB927
+}
+
+p {
+  color: white;
+}
+
+.about {
+  text-align: center;
+  margin: 50px 50px;
+  padding: 15px:
+}
+
+
+* {
+  background-color: black;
+}
+
+.JK {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+/* Mission Statement Design End */
+
+/* Footer Design */
+.footer {
+  position: sticky;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.footer a {
+  padding: 0px 20px;
+    margin: 15px;
+}

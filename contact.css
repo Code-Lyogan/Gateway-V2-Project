@@ -1,0 +1,105 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url(images/darktables.jpg);
+  background-size: cover;
+}
+
+/* Nav Bar Design */
+nav {
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 35px;
+  font-family: Didot, serif;
+  font-weight: bold;
+  color: #FDB927
+}
+
+a {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #FDB927;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #552583
+}
+
+ul {
+  margin: 0;
+}
+
+ul li{
+  float: left;
+  padding: 5px;
+  list-style: none;
+}
+/* Nav Bar Design End */
+
+/* Contact Form Design */
+
+.contact-form {
+  padding: 20px 20px;
+  width: 80%;
+  max-width: 500px;
+  background: grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  font-family: Didot, serif;
+}
+
+.contact-form h2 {
+  font-weight: 800;
+}
+
+.contact-text {
+  border: 2px black;
+  margin: 12px 0;
+  border-radius: 10px;
+}
+
+.contact-text label {
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.contact-text input {
+  width: 100%;
+}
+/* Contact Form Design End */
+
+/* Footer Design */
+.footer {
+  position: absolute;
+  top: 90%;
+  left: 68%;
+  transform: translate(-90%, -68%);
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.footer a {
+  padding: 0 20px;
+  margin: 10px;
+}
+
+/* The Footer for this specific section was difficult. My code kept displaying inside of the actual contact form itself, so I had to play with the positioning of this section trying to find the correct dimensions to align directly underneath my contact sheet */
